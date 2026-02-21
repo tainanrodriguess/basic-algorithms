@@ -6,19 +6,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TwoPointersAlgorithmApplication {
 
     public static void main(String[] args) {
-        String texto = "TAINAN";
-        char[] chars = texto.toCharArray();
+        String text = "TAINAN RODRIGUES";
+        char[] chars = text.toCharArray();
 
-        int esquerda = 0;
-        int direita = chars.length - 1;
+        int leftPointer = 0;
+        int rightPointer = chars.length - 1;
 
-        while (esquerda < direita) {
-            char temp = chars[esquerda];
-            chars[esquerda] = chars[direita];
-            chars[direita] = temp;
+        while (leftPointer < rightPointer) {
+            char temp = chars[leftPointer];
+            chars[leftPointer] = chars[rightPointer];
+            chars[rightPointer] = temp;
 
-            esquerda++;
-            direita--;
+            leftPointer++;
+            rightPointer--;
         }
 
         System.out.println(new String(chars));
