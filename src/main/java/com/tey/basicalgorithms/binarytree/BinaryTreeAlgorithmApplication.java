@@ -1,8 +1,10 @@
 package com.tey.basicalgorithms.binarytree;
 
+import com.tey.basicalgorithms.binarytree.domain.BinaryTreeTraversal;
+import com.tey.basicalgorithms.binarytree.domain.TreeNode;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import static com.tey.basicalgorithms.binarytree.TreeNode.createCompleteTree;
+import static com.tey.basicalgorithms.binarytree.domain.TreeNode.createCompleteTree;
 
 @SpringBootApplication
 public class BinaryTreeAlgorithmApplication {

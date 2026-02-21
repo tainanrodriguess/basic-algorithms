@@ -1,4 +1,4 @@
-package com.tey.basicalgorithms.binarytree;
+package com.tey.basicalgorithms.binarytree.domain;
 
 import java.util.LinkedList;
 import java.util.Queue;

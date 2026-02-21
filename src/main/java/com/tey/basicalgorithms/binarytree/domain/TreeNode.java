@@ -1,4 +1,4 @@
-package com.tey.basicalgorithms.binarytree;
+package com.tey.basicalgorithms.binarytree.domain;
 
 class TreeNode {
     int val;
