@@ -31,5 +31,9 @@ public class BinaryTreeAlgorithmApplication {
         System.out.print("Post-order: (Left-Right-Root) ");
         tree.postorder(root);
         System.out.println();
+
+        System.out.print("Pre-order: (Level-Order) ");
+        tree.levelOrder(root);
+        System.out.println();
     }
 }
